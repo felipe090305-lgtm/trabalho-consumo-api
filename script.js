@@ -48,4 +48,5 @@ function prev() {
   const newPage = page === 0 ? 2 : page - 1
   window.location.hash = "#" + newPage
   window.location.reload()
+  
 }
